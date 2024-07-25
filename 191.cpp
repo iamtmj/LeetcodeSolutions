@@ -10,7 +10,7 @@ Output: 3
 Explanation:
 The input binary string 1011 has a total of three set bits.
 CONSTRAINTS:
-1 <= n <= 231 - 1
+1 <= n <= 2^31 - 1
 */
 #include <iostream>
 using namespace std;
