@@ -40,7 +40,34 @@ int Approach1()
         return false;
     }
 }
+int Approach2()
+{
+    int number;
+    cout<<"Number:";
+    cin>>number;
+    int remainder=0;
+    while(number!=1)
+    {
+        remainder=number%2;
+        number/=2;
+        if(remainder!=0)
+        {
+            break;
+        }
+        
+    }
+    if(remainder==0)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+    
+}
 int main()
 {
     cout<<"Approach 1:-"<<endl<<Approach1()<<endl;
+    cout<<"Approach 2:-"<<endl<<Approach2()<<endl;
 }
